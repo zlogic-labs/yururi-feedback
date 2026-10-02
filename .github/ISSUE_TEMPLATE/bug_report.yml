@@ -1,0 +1,86 @@
+name: Bug report
+description: Something in the app is broken
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing: check the open issues, and do not attach the book file —
+        describe it instead.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you expected, and what you got instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Settings
+        2. Turn on ...
+        3. Open a book
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: File format
+      options:
+        - EPUB / EPUB3
+        - PDF
+        - TXT
+        - MOBI
+        - AZW / AZW3
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scanned
+    attributes:
+      label: Is the PDF a scan (image-only, no selectable text)?
+      options:
+        - "Yes"
+        - "No"
+        - "Not a PDF"
+    validations:
+      required: true
+
+  - type: textarea
+    id: where
+    attributes:
+      label: Where did the file come from?
+      description: Store, download, a library, camera scan, converted from PDF…
+    validations:
+      required: false
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: Pixel 8, Android 15
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: 2.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs
+      description: Optional, but a screenshot of the wrong layout beats any description.
+    validations:
+      required: false

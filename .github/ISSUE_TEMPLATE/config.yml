@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Rate or review on Google Play
+    url: https://play.google.com/store/apps/details?id=chat.gptalk.app.readulo
+    about: Reviews and ratings go to Google, not here.
+  - name: Account, refunds, install problems
+    url: https://support.google.com/googleplay/android-developer/contactus
+    about: Play Store account and billing issues are handled by Google.

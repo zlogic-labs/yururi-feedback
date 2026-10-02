@@ -1,0 +1,44 @@
+name: Feature request
+description: Ask for something the app does not do
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        What problem would this solve? That matters more than the feature itself —
+        a request that answers it is far more likely to be worth building.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do that you cannot do now?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you have in mind
+      description: Optional. Sketches or rough notes are fine.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: alternatives
+    attributes:
+      label: What do you do today instead?
+      options:
+        - Another app
+        - A computer
+        - Converting the file by hand
+        - I do not — I gave up
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Anything else
+    validations:
+      required: false
