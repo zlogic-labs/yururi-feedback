@@ -6,8 +6,6 @@ This repository is a place to report problems and ask for changes.
 - 📱 Get the app: <https://play.google.com/store/apps/details?id=chat.gptalk.app.readulo>
 - 🌐 Website: <https://yururi.zlogic.run>
 
-用中文或 English 都可以。这个仓库只用来收反馈，不含源码。
-
 ## What to use it for
 
 - Something in the app is broken — a crash, text that will not lay out, a book that
